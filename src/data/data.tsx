@@ -392,26 +392,26 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Envíame un mensaje si estás interesado en algún servicio de ethical hacking o desarrollo.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'cricacrugo97@gmail.com',
+      href: 'mailto:cricacrugo97@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Manizales, Caldas',
+      href: 'https://www.google.ca/maps/place/Manizales,+Caldas/@5.0629743,-75.5027698,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipPZGHWKwiLteu9_cMN4SZ_u22VDwEs32E6kv1yn!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPZGHWKwiLteu9_cMN4SZ_u22VDwEs32E6kv1yn%3Dw87-h86-k-no!7i1080!8i1067!4m5!3m4!1s0x8e476ffa6a42ce3b:0xa863cf6423ea141c!8m2!3d5.0629743!4d-75.5027698',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
+      text: '@crisa.97',
       href: 'https://www.instagram.com/crisa.97/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
+      text: 'crisa97',
       href: 'https://github.com/crisa97',
     },
   ],
