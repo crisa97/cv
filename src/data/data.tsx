@@ -95,16 +95,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Soy estudiante de ingeniería de sistemas y telecomunicaciones apasionado por la ciberseguridad
+  o seguridad informática en la parte de aplicaciones web.\nTambién cuento con una página web donde comparto 
+  información sobre desarrollo de CTF en la plataforma de tryhackme donde me identifico con el alias de crisa97.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Manizales, Caldas', Icon: MapIcon},
+    {label: 'Age', text: '25', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Colombia', Icon: FlagIcon},
+    {label: 'Interests', text: 'Hacking, programación y scripting', Icon: SparklesIcon},
+    {label: 'Study', text: 'Universidad de Manizales', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Analista de seguridad', Icon: OfficeBuildingIcon},
   ],
 };
 
