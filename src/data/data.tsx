@@ -69,28 +69,22 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Soy Cristhian.`,
+  name: `Hola,soy Cristhian.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        Yo soy <strong className="text-stone-100">Analista de seguridad</strong>, actualmente trabajo en{' '}
+        <strong className="text-stone-100">Coxti S.A.S</strong> ayudo en la parte de ciberseguridad en la organización,
+        como lo es revisión de código estático, entre otras funciones.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        Mi tiempo libre lo dedico a estudiar <strong className="text-stone-100">seguridad informática</strong>,
+        resolviendo <strong className="text-stone-100">CTF (Capture The Flag)</strong>, en la plataforma de{' '}
+        <strong className="text-stone-100">tryhackme</strong>.
       </p>
     </>
   ),
   actions: [
-    {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
-      primary: true,
-      Icon: DownloadIcon,
-    },
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
@@ -351,12 +345,12 @@ export const contact: ContactSection = {
     {
       type: ContactType.Instagram,
       text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      href: 'https://www.instagram.com/crisa.97/',
     },
     {
       type: ContactType.Github,
       text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      href: 'https://github.com/crisa97',
     },
   ],
 };
@@ -365,9 +359,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/crisa97'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/crisa.97/'},
 ];
