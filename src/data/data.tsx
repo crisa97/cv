@@ -265,7 +265,7 @@ export const education: TimelineItem[] = [
   {
     date: 'Actualmente',
     location: 'Manizales, Caldas',
-    title: 'Univercidad de Manizales',
+    title: 'Universidad de Manizales',
     content: <p>ingeniería de sistemas y telecomunicaciones.</p>,
   },
   {
