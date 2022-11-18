@@ -328,26 +328,33 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Julio 2021 - Actualmente',
+    location: 'CoxTI S.A.S',
+    title: 'Analista de seguridad',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Analisis de codigo estatigo, búsqueda de fallos de seguridad en aplicaciones web, capacitaciones sobre detección
+        de phishing, auditoria a plataformas de terceros y mitigación de brechas de seguridad.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
+    date: 'Diciembre 2021 - Julio 2021',
+    location: 'Comdata Group',
+    title: 'Asesor comercial',
+    content: <p>Atención al cliente y vendedor de servicios de internet,</p>,
+  },
+  {
+    date: 'Enero 2017 - Diciembre 2021',
+    location: 'Independiente',
+    title: 'Técnico en sistemas',
+    content: <p>Mantenimiento preventivo, mantenimiento correctivo y soporte técnico.</p>,
+  },
+  {
+    date: 'Julio 2017 - Diciembre 2017',
+    location: 'Alcaldía de Manizales',
+    title: 'Técnico en sistemas',
+    content: <p>Mantenimiento preventivo, mantenimiento correctivo y soporte técnico.</p>,
   },
 ];
 
