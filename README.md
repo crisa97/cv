@@ -2,9 +2,9 @@
 
 ![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
 
-### View a [live demo here.](https://reactresume.com)
+### View a [live demo here.](https://brilliant-chimera-348a63.netlify.app/)
 
-#### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project
+#### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/crisa97) the project
 
 ### 🎉 Version 2 is here! New features:
 1. Completely rebuilt with React and full typescript support
@@ -13,7 +13,6 @@
 4. Re-organized data population file for customizing site.
 5. Significant improvement/modernization of all site sections
  
-**Looking for the old version? You can find it [here.](https://github.com/tbakerx/react-resume-template/releases/tag/v1.0.0)**
 
 ## Description
 
