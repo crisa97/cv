@@ -259,16 +259,70 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Actualmente',
+    location: 'Manizales, Caldas',
+    title: 'Univercidad de Manizales',
+    content: <p>ingeniería de sistemas y telecomunicaciones.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Agosto 2022',
+    location: 'San Francisco, Estados Unidos',
+    title: 'Udemy',
+    content: <p>Implementacion de framework de ciberseguridad nist.</p>,
+  },
+  {
+    date: 'Julio 2021',
+    location: 'San Francisco, Estados Unidos',
+    title: 'Udemy',
+    content: <p>OWASP ZAP From Scratch.</p>,
+  },
+  {
+    date: 'Octubre 2021',
+    location: 'San Francisco, Estados Unidos',
+    title: 'Udemy',
+    content: <p>OWASP TOP 10 Web 2021 + 2017.</p>,
+  },
+  {
+    date: 'Octubre 2021',
+    location: 'San Francisco, Estados Unidos',
+    title: 'Udemy',
+    content: <p>OWASP TOP 10 Mobile.</p>,
+  },
+  {
+    date: 'Julio 2021',
+    location: 'San Francisco, Estados Unidos',
+    title: 'Udemy',
+    content: <p>Penetration Testing with KALI and More.</p>,
+  },
+  {
+    date: 'Septiembre 2020',
+    location: 'San Francisco, Estados Unidos',
+    title: 'Udemy',
+    content: <p>Ciberseguridad en linea.</p>,
+  },
+  {
+    date: 'Septiembre 2020',
+    location: 'San Francisco, Estados Unidos',
+    title: 'Udemy',
+    content: <p>Ethical Hacking - SQL Injection Attack.</p>,
+  },
+  {
+    date: 'Junio 2020',
+    location: 'San Francisco, Estados Unidos',
+    title: 'Udemy',
+    content: <p>GNU/Linux: Da tus primeros pasos!! (Curso básico).</p>,
+  },
+  {
+    date: 'Septiembre 2019',
+    location: 'San Francisco, Estados Unidos',
+    title: 'Udemy',
+    content: <p>Curso de Servidores Linux en CENTOS para principiantes.</p>,
+  },
+  {
+    date: 'Diciembre 2016',
+    location: 'Manizales, Caldas',
+    title: 'Sena',
+    content: <p>Tecnico de sistemas.</p>,
   },
 ];
 
@@ -357,6 +411,6 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/crisa97'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/crisa97/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/crisa.97/'},
 ];
