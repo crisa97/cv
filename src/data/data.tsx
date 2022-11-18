@@ -116,16 +116,12 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
         name: 'Spanish',
-        level: 3,
+        level: 8,
+      },
+      {
+        name: 'English',
+        level: 5,
       },
     ],
   },
@@ -133,16 +129,16 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
+        name: 'Angular',
+        level: 6,
+      },
+      {
         name: 'React',
-        level: 9,
+        level: 5,
       },
       {
         name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
+        level: 5,
       },
     ],
   },
@@ -151,32 +147,40 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 7,
       },
       {
-        name: 'Rust',
+        name: 'python',
         level: 5,
       },
       {
-        name: 'Golang',
+        name: 'bash',
+        level: 4,
+      },
+      {
+        name: 'Java',
         level: 4,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Hack tools',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'Burp suite',
+        level: 8,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Nmap',
+        level: 8
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Owasp zap',
+        level: 8,
+      },
+      {
+        name: 'SQLmap',
+        level: 5,
       },
     ],
   },
